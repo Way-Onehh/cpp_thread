@@ -1,12 +1,12 @@
 #include<iostream>
 #include<thread>
+
 int main(int n,char* argv[])
 {
     //Avoid polluting namespaces
     using std::cout;
     using std::endl;
     using std::thread;
-    using std::this_thread::get_id;
 
     //Function entry to print something and thread  id; 
     auto &&la= [](int times)

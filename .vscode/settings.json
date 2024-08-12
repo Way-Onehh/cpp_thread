@@ -49,6 +49,8 @@
         "stdexcept": "cpp",
         "stop_token": "cpp",
         "streambuf": "cpp",
-        "typeinfo": "cpp"
+        "typeinfo": "cpp",
+        "condition_variable": "cpp",
+        "mutex": "cpp"
     }
 }
